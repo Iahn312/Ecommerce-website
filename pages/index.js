@@ -5,8 +5,6 @@ import { connectDb } from "../utils/db";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  connectDb();
-
   return (
     <>
       <Head>
@@ -15,7 +13,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1 className="text-3xl font-bold underline text-red-300">Iahn</h1>
+      <h1 className="text-3xl font-bold underline">Iahn</h1>
 
       <button>Hi</button>
     </>
